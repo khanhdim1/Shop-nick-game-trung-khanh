@@ -1,0 +1,7 @@
+body {
+    font-family: Arial;
+    margin: 20px;
+}
+a {
+    color: blue;
+}

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Danh sách Acc</title>
+</head>
+<body>
+    <h1>Shop Bán Acc</h1>
+    <ul>
+        <% accounts.forEach(acc => { %>
+            <li>
+                <strong><%= acc.game %></strong> - <%= acc.price %>đ
+                <br><%= acc.info %>
+                <br><a href="/buy/<%= acc.id %>">Mua ngay</a>
+            </li>
+        <% }) %>
+    </ul>
+</body>
+</html>

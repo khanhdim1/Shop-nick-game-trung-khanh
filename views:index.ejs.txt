@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shop Acc Trùng Khánh</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>Shop Bán Acc Trùng Khánh</h1>
+    <% if (user) { %>
+        <p>Xin chào, <%= user.username %> | <a href="/shop">Xem acc</a></p>
+    <% } else { %>
+        <a href="/login">Đăng nhập để mua acc</a>
+    <% } %>
+</body>
+</html>
